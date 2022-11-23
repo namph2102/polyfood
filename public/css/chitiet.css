@@ -1,0 +1,295 @@
+
+/* Style của sản phẩm chi tiết */
+.list_ifm_item_detail_product {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_ifm_item_detail_view{
+ padding: 1px;
+}
+.item_detail_view_heading img{
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    border: 1px solid rgb(179, 175, 175);
+}
+.item_detail_view_heading_list_img{
+    display: flex;
+}
+.item_detail_view_heading_list_img img{
+    width: 25%;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid rgb(179, 175, 175);
+    margin-right: 2px; 
+    cursor: pointer; 
+}
+.item_detail_view_heading_list_btn{
+    margin: 8px 0;
+}
+.item_detail_view_heading_list_btn button{
+    padding: auto 12px;
+}
+.item_detail_view_heading_list_btn button.here{
+    background-color: #FE9705;
+}
+
+.list_ifm_item_detail_ifm{
+    padding: 0 12px;
+}
+.list_ifm_item_detail_ifm .item_detail_ifm_name{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.item_detail_ifm_status{
+    margin: 12px 0;
+}
+.item_detail_ifm_status .status{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.item_detail_ifm_status .status_content{
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #80bb35;
+    color: aliceblue;
+    padding: 4px 12px;
+    margin-left: 8px;
+}
+.item_detail_ifm_status .status_content.outOfStock{
+    background-color: #FE9705;
+}
+.item_detail_ifm_status .status_content i{
+    margin-right: 4px;
+}
+.list_ifm_item_detail_ifm .item_detail_ifm_price{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #FE9705;
+}
+.list_ifm_item_detail_ifm  .item_detail_ifm_des{
+    font-size: 1.4rem;
+    margin: 8px 0;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #726b6b;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.form-detail-action .f-left{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.form-detail-action .custom-btn-number{
+    margin: 16px 0;
+}
+.form-detail-action .custom-btn-number span{
+    min-width: 40px;
+    max-width: 42px;
+    border: 1px transparent;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.form-detail-action .custom-btn-number button{
+    width: 30px;
+    padding: 4px 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(207, 205, 205);
+    font-size: 1.8rem;
+}
+.form-detail-action .custom-btn-number .quantity{
+    margin: 0 8px;
+}
+.tag-product{
+    margin: 12px 0;
+    font-size: 1.8rem;
+}
+.tag-product .inline{
+    font-size: 1.8rem;
+    font-weight: 600;
+   
+}
+.tag-product a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.social-sharing a{
+    font-size: 2rem;
+    color: #b98338;;
+}
+.social-sharing{
+    font-size: 1.7rem;
+}
+.list_ifm_item_detail_product .container_box_des_full{
+    font-size: 1.8rem;
+    color: #696969;
+}
+.container_comments{
+    margin: 12px 0;
+}
+.container_comments_head{
+    font-size: 2.8rem;
+    margin: 12px 0;
+}
+.customer_comment_box{
+    display: flex;
+    padding: 4px 0;
+   
+}
+.customer_comment_box .avata{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.customer_comment_box_des{
+    padding: 0 12px;
+}
+.customer_comment_box_des .customer_comment_content{
+    font-family: sans-serif;
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    opacity: 0.95;
+}
+.customer_comment_box_des h3{
+    font-size: 1.6rem;
+}
+.customer_comment_box_des time{
+    font-size: 1.3rem;
+}
+
+/* .customer_comment_container::-webkit-scrollbar{
+    width: 6px;
+}
+.customer_comment_container::-webkit-scrollbar-thumb{
+    background-color: rgb(167, 243, 123);
+}
+.customer_comment_container::-webkit-scrollbar-track{
+    background-color: rgb(245, 234, 234);
+} */
+.customer_comment_content{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
+}
+.form-detail-action .quantity{
+    width: 40px;
+    font-size:1.6rem; 
+    text-align:center;
+}
+.item_detail_ifm_name_preview-start{
+    margin: 12px 0;
+}
+.box_star{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+ .box_star .star_color{
+    clip-path: polygon(50% 0%, 61% 35%, 99% 36%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 35, 35);
+    cursor: pointer;
+}
+ .box_star {
+    margin-right: 12px;
+}
+.box_star .star_color.nocolor{
+    background-color: white;
+}
+.box_star .star_color.haftcolor{
+    color: rgb(247, 35, 35);
+    clip-path: polygon(54% 0, 52% 70%, 50% 69%, 49% 69%, 48% 69%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.box_star .star_color.nocolor.haftcolor{
+    color: rgb(247, 35, 35);
+    clip-path: polygon(54% 0, 52% 70%, 50% 69%, 49% 69%, 48% 69%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.item_detail_ifm_name_preview-start a{
+  color: rgb(247, 35, 35);
+  padding: 0 4px;
+  font-size: 1.6rem;
+}
+.item_detail_ifm_name_preview-start span{
+    padding: 0 4px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.item_detail_ifm_price_boxsale{
+    display: flex;
+    align-items: center;
+}
+.item_detail_ifm_price_boxsale del{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-right: 8px;
+    color: #846666;
+}
+.item_detail_ifm_price_boxsale-salfeof {
+    padding: 4px 12px;
+    background-color: #d54545;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 8px;
+    font-weight: 700;
+}
+.an{
+    display: none;
+}
+button{
+    padding: 0;
+}
+button a{
+   padding: 4px 12px;
+}
+.customer_comment_box .star_color{
+    width: 15px;
+    height: 15px;
+    margin: 4px 0;
+}
+.box_message {
+    font-size: 1.8rem;
+   
+}
+select[name='start_get']{
+    font-size: 1.8rem;
+    padding: 4px 12px;
+}
+.textarea_container  textarea{
+    padding: 4px 12px;
+    font-size: 1.4rem;
+    border: 2px solid yellowgreen;
+}
+.textarea_container{
+    margin: 12px 0;
+}
+
+/* Sửa phần bình luận */
+#box_comment{
+    display: flex;
+    align-items: center;
+    border: 2px solid yellowgreen;
+    justify-content: space-between;
+    padding: 12px 4px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+#box_comment .box_message{
+    border-right: 2px solid gray;
+}
+#box_comment input{
+    border: none;
+    outline: none;
+}
+#box_comment fieldset{
+    border: none;
+    outline: none;
+}

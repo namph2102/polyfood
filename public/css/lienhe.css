@@ -1,0 +1,53 @@
+.box_message  fieldset{
+    font-size: 1.4rem;
+}
+.container_paymoney_ifm_header{
+    margin-top: 12px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 4px 12px;
+}
+.contact{
+ padding-left: 16px;
+    margin-top: 66px;
+    font-size: 1.3rem;
+}
+.contact .item .fa {
+    width: 40px;
+    height: 40px;
+    background: #80bb35;
+    color: #fff;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.lienhe_container{
+    display: flex;
+    flex-direction: column;
+}
+.lienhe_container_item{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.lienhe_container_item .info{
+    display: flex;
+    flex-direction: column;
+}
+.lienhe_container_item a{
+    color: rgb(255, 83, 21);
+    text-decoration: none;
+}
+.lienhe_container_item label{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 8px 0;
+}

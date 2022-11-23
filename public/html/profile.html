@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../grid/grid.css">
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>Trang khách hàng</title>
+</head>
+
+<body>
+    <header id="headmenu_fixed">
+        <div class="grid wide">
+            <div class="nav__content--sub row">
+                <ul class="head_nav nav_left l-6 m-6 c-0">
+                    <li class="email_address"><a href="mailto:namph2102@gmail.com"><i
+                                class="fa-regular fa-envelope"></i>namph2102@gmail.com</a>
+                        <div class="email_address_sub">
+                            <p>namph2102@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="phone_address"><a href="tel:0877669990"><i class="fa-solid fa-phone"></i> 0877 669
+                            990</a>
+                        <div class="phone_address_sub">
+                            <p>0877 669 990</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="head_nav nav_right l-6 m-6 c-12">
+                    <li><a href="#" class="link_form">Đăng nhập/</a><a href="#" class="link_form">Đăng kí</a></li>
+                    <li class="cart_main"><a href="#">Giỏ hàng/ <strong class="head_total">265,000đ</strong> <i
+                                class="fa-solid fa-bag-shopping"></i></a>
+                        <div class="cart_total_amount">
+                            <p>3</p>
+                        </div>
+                        <div class="cart_sub_hover text-center">
+                            <strong class="text-center cart_header">Giỏ Hàng</strong>
+                            <div class="cart_emtpy">
+                                <img src="https://www.clipartmax.com/png/full/420-4202091_shopping-cart-empty-shopping-cart-icon-shopping-cart.png"
+                                    alt="">
+                                <b>Chưa có sản phẩm nào trong giỏ hàng</b>
+                            </div>
+                            <div class="cart_sub_list-box">
+                                <!-- <div class="cart_box">
+                                    <img src="http://mauweb.monamedia.net/happytrade/wp-content/uploads/2019/05/ca_basa_huu_co_binca_cat_lat_master-300x300.jpg"
+                                        alt="" />
+                                    <div class="cart_box-des">
+                                        <p class="cart_box-des-name">Sầuga riêng sạch nha sach dep thơm ngon nha</p>
+                                        <p class="cart_box-des-body">
+                                            <span class="cart_box-amount"><button
+                                                    class="btn_decreate btn_chagne_cart"><i
+                                                        class="fa-solid fa-minus"></i></button> 1<button
+                                                    class="btn_create btn_chagne_cart"><i
+                                                        class="fa-solid fa-plus"></i></button> </span>
+                                            <span class="cart_box-price">235,352 đ</span>
+                                        </p>
+                                    </div>
+                                    <div class="close_item"><i class="fa-regular fa-circle-xmark"></i></div>
+                                </div> -->
+                            </div>
+                            <div class="total_sub">
+                                <b>Tổng Phụ:</b> <strong>500,600 đ</strong>
+                            </div>
+                            <div class="btn_cart_list">
+                                <button class="btn"><a href="#">xem giỏ hàng</a> </button>
+                                <button class="btn btn_payment"><a href="#">thanh toán</a></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row nav_menu_main">
+                <!-- menu table mobie -->
+                <div class="show_menu hide">
+                    <i class="fa-solid fa-bars menu"></i>
+                    <div class="nav_mobile">
+                        <ul class="nav_main ">
+                            <li><a href="">Trang Chủ</a></li>
+                            <li><a href="">Giới Thiệu</a></li>
+                            <li class="sub_menu"><a href="#!">Sản Phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="sub_menu_products">
+                                    <li><a href="">Rau củ</a></li>
+                                    <li><a href="">Hải sản</a></li>
+                                    <li><a href="">Trái cây</a></li>
+                                    <li><a href="">Đồ uống</a></li>
+                                    <li><a href="">Thịt trứng</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Kiến Thức</a></li>
+                            <li><a href="">Liên Hệ</a></li>
+                        </ul>
+                        <br />
+                        <button class="btn btn-success"><a href="">Đăng kí</a></button>
+                        <button class="btn btn-danger"><a href="">Đăng nhập</a></button>
+                    </div>
+                </div>
+                <!--end  menu table mobie -->
+                <div class="head_logo l-3 m-3 c-7">
+                    <div class="logo_container">
+                        <img src="../img/logoShop.png" alt="" />
+                        <b class="logo_brand"><strong>Yumy</strong>Fresh</b>
+                    </div>
+                </div>
+                <ul class="nav_main hide_of_table l-7 m-6 c-0">
+                    <li><a href="">Trang Chủ</a></li>
+                    <li><a href="">Giới Thiệu</a></li>
+                    <li class="sub_menu"><a href="">Sản Phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub_menu_products">
+                            <li><a href="">Rau củ</a></li>
+                            <li><a href="">Hải sản</a></li>
+                            <li><a href="">Trái cây</a></li>
+                            <li><a href="">Đồ uống</a></li>
+                            <li><a href="">Thịt trứng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Kiến Thức</a></li>
+                    <li><a href="">Liên Hệ</a></li>
+                </ul>
+                <div class="head_search l-2 m-3 c-3">
+                    <div class="seach_item">
+                        <input type="text" name="search" placeholder="Tìm kiếm ..."><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                        <div class="seach_item_list hide">
+                            <!-- <a href="#" class="seach_item_list-box">
+                                <img src="http://mauweb.monamedia.net/happytrade/wp-content/uploads/2019/05/upload_1d1797f33c5140e4a7742aa0470d77e5_master.jpg"
+                                    alt="">
+                                <div class="seach_item_list-box_des">
+                                    <p class="seach_item_list-box_des-name">
+                                        Bông bưởi hihihi đepq ua nha hahaha
+                                    </p>
+                                    <p class="seach_item_list-box_des-price">
+                                        <span class="item_list-box_des-price">123,126,354 đ</span> <del>135,245đ</del>
+                                    </p>
+                                </div>
+                            </a> -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Điều hướng của trang-->
+    <section class="grid wide">
+        <div class="product_items_directional">
+            <div class="directional_head">
+                <a href="../html/home.html">Trang chủ </a><i class="fa-solid fa-angle-right"></i><a href=""> Trang khách
+                    hàng</a>
+            </div>
+        </div>
+
+    </section>
+    <!--End Điều hướng của trang-->
+
+    <div id="headbanner_fixed" class="headchange"> </div>
+
+    <div class="product_items_special">
+        <div class="grid wide">
+            <div class="profile_container row">
+                <div class="profile_container_menu l-3 m-6 c-12">
+                    <div class="profile_logo">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="">
+                        <div class="profile_logo-ifm">
+                            <p>
+                                <profile-fullname> Phạm hoài Nam</profile-fullname>
+                            </p>
+
+                            <p>
+                                <profile-date>2020-09-26 10;43:15</profile-date>
+                            </p>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="profile_menu">
+                            <li><a href="#"><i class="fa-solid fa-user"></i>Hồ sơ</a></li>
+                            <li><a href="#"><i class="fa-solid fa-book"></i>Đơn Hàng</a></li>
+                            <li><a href="#"><i class="fa-solid fa-key"></i>Đổi mật khẩu</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="profile_container_body l-9 m-6 c-12">
+                    <div class="nav_profile_bag">
+                        <a href="?type=1" class="menu_profile-nav active">Tất cả</a>
+                        <a href="?type=2" class="menu_profile-nav">Chờ xác nhận</a>
+                        <a href="?type=3" class="menu_profile-nav">Chờ lấy hàng</a>
+                        <a href="?type=4" class="menu_profile-nav">Đang giao</a>
+                        <a href="?type=5" class="menu_profile-nav">Đã giao</a>
+                        <a href="?type=6" class="menu_profile-nav">Đã Hủy</a>
+                    </div>
+                    <table border="1" id="order_table">
+                        <thead>
+                            <tr>
+                                <th>Mã Đơn Hàng</th>
+                                <th>Ngày mua hàng</th>
+                                <th>TT Xác thực</th>
+                                <th>TT Đơn hàng</th>
+                                <th>Phone</th>
+                                <th>Address</th>
+                                <th>Tổng Tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#sadd44s</td>
+                                <td>10:09:20 20/05/2020</td>
+                                <td><span class="order_status" title="Đã xác thực thành công">Đã Xác Thực</span></td>
+                                <td>Đơn hàng mới</td>
+                                <td>0877669990</td>
+                                <td class="address">200 / 34 , đông hưng thuận, quân 12 TP HCM</td>
+                                <td>1,125,125 đ</td>
+                            </tr>
+                            <tr>
+                                <td>#sadd44s</td>
+                                <td>10:09:20 20/05/2020</td>
+                                <td><span title="Vào email để xác thực" class="order_status notstatus">Chưa Xác
+                                        Thực</span></td>
+                                <td>Đơn hàng mới</td>
+                                <td>0877669990</td>
+                                <td class="address">200 / 34 , đông hưng thuận, quân 12 TP HCM</td>
+                                <td>1,125,125 đ</td>
+                            </tr>
+                            <tr>
+                                <td>#sadd44s</td>
+                                <td>10:09:20 20/05/2020</td>
+                                <td><span class="order_status notstatus">Chưa Xác Thực</span></td>
+                                <td>Đơn hàng mới</td>
+                                <td>0877669990</td>
+                                <td class="address">200 / 34 , đông hưng thuận, quân 12 TP HCM</td>
+                                <td>1,125,125 đ</td>
+                            </tr>
+                            <tr>
+                                <td>#sadd44s</td>
+                                <td>10:09:20 20/05/2020</td>
+                                <td><span class="order_status notstatus">Chưa Xác Thực</span></td>
+                                <td>Đơn hàng mới</td>
+                                <td>0877669990</td>
+                                <td class="address">200 / 34 , đông hưng thuận, quân 12 TP HCM</td>
+                                <td>1,125,125 đ</td>
+                            </tr>
+                            <tr>
+                                <td>#sadd44s</td>
+                                <td>10:09:20 20/05/2020</td>
+                                <td><span class="order_status notstatus">Chưa Xác Thực</span></td>
+                                <td>Đơn hàng mới</td>
+                                <td>0877669990</td>
+                                <td class="address">200 / 34 , đông hưng thuận, quân 12 TP HCM</td>
+                                <td>1,125,125 đ</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div style="margin:12px 0;" class="page_list_container">
+                        <!-- Điều hướng Trang -->
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                                    <span class="page-link" aria-hidden="true">‹</span>
+                                </li>
+                                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                <li class="page-item"><a class="page-link"
+                                        href="http://localhost:8000/sanpham/all?page=2">2</a></li>
+                                <li class="page-item"><a class="page-link"
+                                        href="http://localhost:8000/sanpham/all?page=3">3</a></li>
+                                <li class="page-item"><a class="page-link"
+                                        href="http://localhost:8000/sanpham/all?page=4">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="http://localhost:8000/sanpham/all?page=2" rel="next"
+                                        aria-label="Next »">›</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- End Điều hướng Trang -->
+                    </div>
+                </div>
+                <div class="modal_list_product">                 
+                    <div class="modal_list_product-container">
+                        <div class="modal_list_product-close">
+                            <i class="fa-solid fa-square-xmark"></i>
+                        </div>
+                        <table border="1">
+                            <caption>Thông tin đon hàng #125634 -Phạm Hoài Nam </caption>
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Ảnh</th>
+                                    <th>Tên</th>
+                                    <th>Giá</th>
+                                    <th>Số Lượng</th>
+                                    <th>Tổng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                <td>1</td>
+                                <td><img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/308/325/products/kf57fd708888943c073792a327aeb5.jpg?v=1524537033277" alt=""></td>
+                                <td>Dâu tây</td>
+                                <td>18,000 đ</td>
+                                <td>2</td>
+                                <td>36, 000 đ</td>
+                               </tr>
+                               <tr>
+                                <td>1</td>
+                                <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAORAAAgIBAwIEBAIIBQUAAAAAAQIAEQMEEiExQQUTIlFhcYGRMqEUFSNCscHR8CRScuHxBhYzNJL/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACARAQEBAAICAwADAAAAAAAAAAABEQIhEjFBQlEDEzL/2gAMAwEAAhEDEQA/APQ1Co1QndwRJkiEKISZNSKiSBJhIohCTICTCEAkyJMiiEIQCEIQCEIQCEIQKahUfbCpvWSyak1JqTVLUmTUmo0LJqTUKkESZNQqBEJNQqRUSYVCoBCFQqAQhUKgEIVCoBCTUKgRUmo0JNXC1DbHhGmFqFRpNRphahUaEmrhahUaTGmEqTUaEaYWobY0mNMJUKjwjTCVCo8I0wlQqPCNMJUKjwjTHFfxtEyFCjWDR6UJLeMAVQB57HpOB5nIrrIGUAe83kZ2vQnxnHyOeO9cGVt40R0Wee8xv8x/hJ3kn+VxkTa7h8afrURfG8pYcTilufjDkRkO3c/XGWx2it4tlJ4c/ecXd1r6wOZwRV8CToyu03jGUd5A8YzV1nIQl3Cnoe8g5GANDv2jpe3YHjGeut/GQPGNQTXH3nHYkAdREyZQlXfPtHS9u4fGM4/CbPtJ/XOfuAPrOJvp+W69BcCwHevrJ0nbuHxfOa9QHygfGM9E7lE4ByWOGHv1kq7NuDDt2l6He/W+c/vA/WKvjuUvs7/ETiixVXQkA9+/vHR27/63zdI58Xyjt0nny1Vf3itqShCmzZoR0dvRt4tlI9vlIPjGUDkflPP+cSO4inUbBZs/KOjtdsF0oYkdeIhquQT7D3iP/wCUEE0aI5k5XONlX5kCTVSnqS1UEA/OQeSKPHylmDP3JIAB6IRf5ScTfpBAK7dvPPcVJrXSl3XHQZhyL45jVbVY+ZNSrW4xkxo2LaQpINcf30Mu02cgsrrsA7k9ai1JulCjdyoo97BEl8Sr62557EgS06zFYt0sdOveLqsrDD6PxlgRYrsZNVUEJUlUNDsDzJZvSpNqTxdcn5yxcOfKpfGmLbdtbEcj+MnFptUqkMgQdRR7/G4FRynzNha75FCotI7bWWyPeW5MWo3LsbECOe5MryMcaBMzqQzXwO/zgqH0hLb/AMJA6kiSKR/St7TwCLmt1HlkUedvA+P/ABM4QgAkrtI4a+eI39MWnOpB34MPI67eR8ZWBgJZjpn2ryQrn8uIqpe60cXwa5jb7G0ZBxY61GrjRl/RQHvTUE5tXINTCfKLBlycdQrAE185porfCtfehZ+cRdGj2C/Ndj+Uamfit2Rn2EkN7HtKHRVNF+VPFTbqMQD5AGBPFypVykgIhBHNE2I0sVptPByEUOe8rzEGgT0mjFpPNDM45rkhTLcumOV7wqKAooBVSyxnKrON0XGrBPT6Ab613qWNbUuTat2QRa/mZW2Y5cZQh05tgveVucKEkZN7AUMZS/z7TOtYuzZcmOg+KgLA4sG/eVHV5MTKqYkQngAivv3gmLU5mVMoYb+RjAtiPl2Hzm1P+nNSQz7MeNhyoJ3sx+PYfnJ2XCLqsSYnV2DMRRVef76yljhxHeq7yB+EmgPylyaIrrRh1LFQGpjusC/ynqP0XS+QcePDjCt1CqBcL5PDNmvMbx7to4p1+55mltT5yKfJy8MSNosHjpYnrk0WJAduMC/hMyeHYMBd1QWx5jKa8tjz4U4ZXViLv/Kb54I47zo4VV0diKonpk7duhnTzaXTvyyC/wCM5aaoYce40gJIFUb+RjbEs1dp9EXxtlCN+1HAZ+g+XvxKNfoSjY3XCiWfUAwJ+suTMcyKx4IsHn4yzVgbHLFgA1gryY7XIyMXDk9OOQREHFKQKu69og1ab/2q5MW4n92645+JlgIZiMRZls0el/eRqWXqEcahK8miB2MrCtlxkZse0iu/WX7cimwpaqoExhj4PUV7yLmKsWPaSEXgg2/b7RFR8eUMhpujbuf4dpeqspradnQ30+8tbDjZPSSKo8jrLqWMmpORcjEI2VSSScdmvoIuPOtAgFbJqxRE0tiyD1C3Wq6cxbA9Lmq4smoTCJqKfCMbUWN/T+/4QGTJlb8VEi7AlO1V1ShB6VT7RcOQlmoXtrvOkjFuLwmfMzFchxseSvfr8JY2iVUdyzNnAL2TdkCxxHw6nFlyKA3q7BTyY2Z/SQOPd3NAzhtrr4Q+j8d02mZj+iurZDeTIG3En69ptXx7S6s+Vj8zdkBAJXgcTiOxTJeLFiZSKJPpDH+cv8NH+IZXZXdlJ4X012E3LrFmVu0wuwwv2s9+81jWvj0zu2N9uJbJ45+EyZWC5DQA+UjW50XR5Ucgsy+lT3pjM8WuR/8AuLCAFbHlDbQ1AfC4DxbBkyHHvYHbu6cfL5zjYsAzuVQLjF0S/FTQLw4wiqVe7Dhfy+U1usSNufWgL+yXcelngCc4ls5s091+LkD7CX6fFpsjFc3oAqgvv/SQGUtt5AW2AP4RDWJxuUUK/qPLWBxXHt0j6vVq5OPEjZSxHS+OnQypnvYGVR78c/1hkHmYSooEKRYPMdtZEJqcYfysq4GTv6rNiV6nT5RkrAuLaCbo0ef+Zny+HlF3LqMbBuiXta/bmT4Y7HUjUZ95xWdyj97j/iNZy76btHhzrk25ioxqp9QPN+0z4NYrkJqcNAAgADgGGr8QOdjj0mIntYHMz+VrEN5MZcVRVX5H0kPbobc4Z23bkXgqOJY4ZMgVz6ivA/zdu85o1YwX6mY7Suxx0mjPr8TKhAZUcUBXHX4Sq6eDS5NhGYKzk8E88V0ifo7KvqcAjgDaBwPaZ9LqfKbacykk8hnJr5TS2swPidsi7aBHrF3xCMmo0pTIcwbcNu0qeqmqnOxEIchHuBVToHULj0mJygyM1DrxIfVB2/dT/S1fwmpalkZV17YcFDSlFJ5NgipRkz4y4e3urO5WAEzeacZUFDQ5AN3Na60ZX9RHJBIugfnPRf4+GaxOdqlnOVw2PMqkdBdD7y/Q6jLg1ONnTct0Sva4PibIu7LiCqW9LUKMRNOrH0jYpI4UmzfQTn4cd6W2x0MuoyZCdilAL5aU+SpPmG3Zuuxj9xMxxPuO3NkCoeb5MsB1OLlCOnFpUn9eejf1pbAN+xStbQeBXPx+ssxscQV3PoHQlqo9PnMQ1GdSFCBj+IUx5N+0bJr8bqUzaJ3HFgmwJnlw5NTlGnLhy4sYsWNtMaoccxA4yMygAekfC+sqbxJWxFby7v3QVqI2pw5z68idB6L7zPhzntveN9NasXQgDcBwfj/tFWsShRVMfw13/upWrIEtFqieUbt7dImTKcw8ttt9moAj6yFhs+DFlzKXSnFUATXTpHXUFVN4qpapgK+hEoVnwtiLuGRj1PH2j7Ml7it7bArm/wC7k6p2XDjfEmJWK7zdf37wTVnA3+IXdf4mU0fnxLQh1Wb1nczNQWqr24mbxDQZfDswGVSoeytmDletjotgxao4z5vmKt0t1d+5lfiOPJsXyMYxBF9Ruh95zMbeVlXIyGgezVf2mrJqU1OPaM74x1KkWJDfKdsS4AVNvsrpY6mbdNo3fSrkd2Abot+mr7zOUy6tAyoqrjFFr6zYL8nHjtgqfHj7TUZnHUjHebagBVfwir5lP6JqHzM+HIfifnNDkKcasF2H0kjmyT/tGx5tufJjTMMQHRiwFiFuX2yZACGJ5IMpyIlp6V6e0ITv8OcGgH7cDtu/lLtNy2O+wJEITEaaKAzIQBcryk2f9MITpPTPMZ/TqMu3igtV24EV1F6g0LFUfbgQhMT219Ypxk/pQ57gRciKQbUdfb4whO8cvlky+liF4+UMbtuX1Hr7whJWY6Gn9ToG9XN8zp6YAo4IBFGEJ5+T0cPatBWu0dd3F/8A0J0f+qVByYbAP7Nv5QhOc9Lz/wBOdqkVUx7VA6jgfCcjX8NY4PMITPwz9m/R8eEWOvmJz9TJHKY79/6QhLXefIzf+3iHY3f2EfUAFmBAIB/rCE0y/9k=" alt=""></td>
+                                <td>Dâu tây</td>
+                                <td>18,000 đ</td>
+                                <td>2</td>
+                                <td>36, 000 đ</td>
+                               </tr>
+                               <tr>
+                                <td>1</td>
+                                <td><img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/308/325/products/kf57fd708888943c073792a327aeb5.jpg?v=1524537033277" alt=""></td>
+                                <td>Dâu tây</td>
+                                <td>18,000 đ</td>
+                                <td>2</td>
+                                <td>36, 000 đ</td>
+                               </tr>
+                               <tr>
+                                <td>1</td>
+                                <td><img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/308/325/products/kf57fd708888943c073792a327aeb5.jpg?v=1524537033277" alt=""></td>
+                                <td>Dâu tây</td>
+                                <td>18,000 đ</td>
+                                <td>2</td>
+                                <td>36, 000 đ</td>
+                               </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="toast">
+
+        </div>
+
+
+        <footer>
+            <div class="grid wide">
+                <div class="footer_container">
+                    <div class="footer-list_address l-3 m-6 c-12">
+                        <div class="logo_container">
+                            <img src="../img/logoShop.png" alt="">
+                            <b class="logo_brand"><strong>Yumy</strong>Fresh</b>
+                        </div>
+                        <p class="list_address-shop">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <b>200/34 C12 Tô Ký, Phường Đông Hưng Thuận, Quận 12, Tp.HCM</b>
+                            <br />
+                            <i class="fa-solid fa-phone"></i>
+                            <b>0877 669 990</b>
+                            <br />
+                            <i class="fa-solid fa-envelope"></i>
+                            <b>namph2102@gmail.com</b>
+                            <br />
+                            <i class="fa-brands fa-skype"></i>
+                            <b>namph2102</b>
+                        </p>
+                    </div>
+                    <div class="footer-list_catetory l-6 m-6 c-12">
+                        <div class="list_catetory-products l-4 m-6 c-6">
+                            <h2>SẢN PHẨM</h2>
+                            <ul>
+                                <li><a href="">Rau củ</a></li>
+                                <li><a href="">Hải sản</a></li>
+                                <li><a href="">Trái cây</a></li>
+                                <li><a href="">Đồ uống</a></li>
+                                <li><a href="">Thịt trứng</a></li>
+                            </ul>
+                        </div>
+                        <div class="list_catetory-products l-4 m-6 c-6">
+                            <h2>DANH MỤC</h2>
+                            <ul>
+                                <li><a class="show" href="#headbanner_fixed">Trang chủ</a></li>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Cửa hàng</a></li>
+                                <li><a href="">Kiến thức</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="list_catetory-products l-4 m-0 c-0">
+                            <h2>DỊCH VỤ</h2>
+                            <ul>
+                                <li><a href="">Rau củ</a></li>
+                                <li><a href="">Hải sản</a></li>
+                                <li><a href="">Trái cây</a></li>
+                                <li><a href="">Đồ uống</a></li>
+                                <li><a href="">Thịt trứng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="list_catetory-products  footer-form_contact l-3 m-4 c-12">
+                        <h2>ĐĂNG KÝ</h2>
+                        <p class="form_contact-des">Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                        <div class="input_contact">
+                            <input type="email" name="emailcontact" id="emailcontact" placeholder="Email..." /><i
+                                class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <ul class="footer_list_social">
+                            <li><a href="#!" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#!" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#!" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#!" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Copyright_footer">
+                <p>© Bản quyền thuộc về . Thiết kế website <strong><em>HoaiNam Media</em></strong> </p>
+            </div>
+        </footer>
+      
+</body>
+ <script>
+    let $ = document.querySelector.bind(document);
+    let $$ = document.querySelectorAll.bind(document);
+     let modal_list_product=$('.modal_list_product');
+     let btn_close_modal=$('.modal_list_product-close');
+     let modal_list_product_container=$('.modal_list_product-container');
+     console.log('modal_list_product');
+     btn_close_modal.onclick=function(){
+        modal_list_product.classList.add('hidden');
+       
+     }
+     modal_list_product.addEventListener('click',function(e){
+        modal_list_product.classList.add('hidden')
+    });
+    modal_list_product_container.addEventListener('click',function(e){
+      e.stopPropagation();
+    });
+    
+ </script>
+</html>

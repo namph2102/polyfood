@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Concert+One&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;300;400;500;600;700&family=Lobster&family=Monoton&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Patua+One&family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700;900&family=Signika+Negative:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;900&family=Special+Elite&family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+:root {
+    --primary-color: #6abd45;
+    --main-color: #2d7c09;
+    --w-text: rgba(255, 255, 255, 0.9);
+    --w-secondText: rgba(255, 255, 255, 0.70);
+    --b--text: rgba(0, 0, 0, 0.87);
+    --b-secondText: rgba(0, 0, 0, 0.7);
+    --far-content: 25px;
+    --price-color: #fe9705;
+    --bg-footer: rgb(37, 41, 50);
+    --bg-w: white;
+
+}
+html{
+    font-size: 62.5%;
+}
+.container_paymoney_ifm aside{
+    padding: 0 12px;
+    justify-content: space-between;
+}
+.box_padding_aside{
+   padding: 0 8px;
+}
+aside .box_message {
+    margin: 12px 0;
+}
+.container_paymoney fieldset{
+    border: 0.2px solid rgb(133, 122, 122);
+}
+.container_paymoney fieldset legend{
+    font-size: 1.7rem;
+    padding: 0 12px;
+    margin-left: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.container_paymoney .form-control{
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    width: 90%;
+}
+#kh_ten{
+    text-transform: capitalize;
+}
+.container_paymoney fieldset select{
+    width: 100%;
+    border-top: 1px solid transparent;
+    padding: 8px 0;
+    outline: none;
+}
+.container_paymoney fieldset.error{
+    color: rgb(243, 70, 70);
+    border: 0.2px solid red;
+   
+}
+.error ~ span{
+    color: rgb(240, 47, 47);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.container_paymoney_ifm_header-head{
+    font-size: 1.8rem;
+}
+
+.container_paymoney_ifm_header-body{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 8px 0;
+}
+.container_paymoney_ifm article .container_paymoney_ifm_header-head{
+    margin: 8px 0;
+}
+.container_paymoney_ifm article .custom-control .custom-control-label{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container_paymoney_ifm article .custom-control .container_ifm_howtopay{
+    margin: 8px 0;
+    border: 1px solid rgb(226, 217, 217);
+    padding: 8px 12px;
+    font-size: 1.4rem;
+}
+.container_paymoney_ifm .btn{
+    font-size: 1.6rem;
+    width: 50%;
+}
+
+.container_paymoney_ifm  .btn{
+    margin: 4px 0;
+}
+.container_paymoney_ifm .btn a{
+    text-decoration: none;
+    color: var(--w-text);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.container_paymoney .subprice-price{
+    padding: 4px 16px;
+}
+.subprice-price ul{
+    list-style: none;
+}
+.subprice-price .badge-pill{
+    background-color: gray;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--w-text);
+} 
+.subprice-price_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+.subprice-price .list-group{
+    overflow-y: scroll;
+    max-height: 300px;
+    padding: 0 4px;
+}
+.subprice-price .list-group::-webkit-scrollbar{
+    width: 6px;
+}
+.subprice-price .list-group::-webkit-scrollbar-thumb{
+    width: 20px;
+    background-color: rgb(52, 150, 68);
+    border-radius: 12px;
+}
+.subprice-price .list-group::-webkit-scrollbar-track{
+    width: 20px;
+    background-color: white;
+}
+.subprice-price .list-group-item{
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.subprice-price .list-group-item h6{
+    font-size: 1.5rem;
+    width:100%;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.subprice-price input{
+    padding: 8px 0;
+}
+.input-group_container{
+    border: 1px solid rgb(226, 217, 217);
+    padding: 4px;
+}
+.input-group_total_money-pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 0;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-weight: bold;
+}
+@media screen and (max-width:1239px) {
+    .product_items_special{padding: 0 12px;}
+    
+}

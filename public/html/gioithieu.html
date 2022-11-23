@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../grid/grid.css">
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <title>Giói Thiệu</title>
+</head>
+    <style>
+        .title-head {
+            font-size: 2.14286em;
+            color: #333;
+            font-weight: 400;
+            text-decoration: none;
+             margin: 8px 0;
+        } 
+        .about_us .about_us_des{
+            font-size: 1.4rem;
+            color: rgba(0,0,0,0.7);
+            letter-spacing: 0.25px;
+            font-weight: 500;
+        }
+    </style>
+<body>
+    <header id="headmenu_fixed">
+        <div class="grid wide">
+            <div class="nav__content--sub row">
+                <ul class="head_nav nav_left l-6 m-6 c-0">
+                    <li class="email_address"><a href="mailto:namph2102@gmail.com"><i
+                                class="fa-regular fa-envelope"></i>namph2102@gmail.com</a>
+                        <div class="email_address_sub">
+                            <p>namph2102@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="phone_address"><a href="tel:0877669990"><i class="fa-solid fa-phone"></i> 0877 669
+                            990</a>
+                        <div class="phone_address_sub">
+                            <p>0877 669 990</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="head_nav nav_right l-6 m-6 c-12">
+                    <li><a href="#" class="link_form">Đăng nhập/</a><a href="#" class="link_form">Đăng kí</a></li>
+                    <li class="cart_main"><a href="#">Giỏ hàng/ <strong class="head_total">265,000đ</strong> <i
+                                class="fa-solid fa-bag-shopping"></i></a>
+                        <div class="cart_total_amount">
+                            <p>3</p>
+                        </div>
+                        <div class="cart_sub_hover text-center">
+                            <strong class="text-center cart_header">Giỏ Hàng</strong>
+                            <div class="cart_emtpy">
+                                <img src="https://www.clipartmax.com/png/full/420-4202091_shopping-cart-empty-shopping-cart-icon-shopping-cart.png"
+                                    alt="">
+                                <b>Chưa có sản phẩm nào trong giỏ hàng</b>
+                            </div>
+                            <div class="cart_sub_list-box">
+                                <!-- <div class="cart_box">
+                                    <img src="http://mauweb.monamedia.net/happytrade/wp-content/uploads/2019/05/ca_basa_huu_co_binca_cat_lat_master-300x300.jpg"
+                                        alt="" />
+                                    <div class="cart_box-des">
+                                        <p class="cart_box-des-name">Sầuga riêng sạch nha sach dep thơm ngon nha</p>
+                                        <p class="cart_box-des-body">
+                                            <span class="cart_box-amount"><button
+                                                    class="btn_decreate btn_chagne_cart"><i
+                                                        class="fa-solid fa-minus"></i></button> 1<button
+                                                    class="btn_create btn_chagne_cart"><i
+                                                        class="fa-solid fa-plus"></i></button> </span>
+                                            <span class="cart_box-price">235,352 đ</span>
+                                        </p>
+                                    </div>
+                                    <div class="close_item"><i class="fa-regular fa-circle-xmark"></i></div>
+                                </div> -->
+                            </div>
+                            <div class="total_sub">
+                                <b>Tổng Phụ:</b> <strong>500,600 đ</strong>
+                            </div>
+                            <div class="btn_cart_list">
+                                <button class="btn"><a href="#">xem giỏ hàng</a> </button>
+                                <button class="btn btn_payment"><a href="#">thanh toán</a></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row nav_menu_main">
+                <!-- menu table mobie -->
+                <div class="show_menu hide">
+                    <i class="fa-solid fa-bars menu"></i>
+                    <div class="nav_mobile">
+                        <ul class="nav_main ">
+                            <li><a href="">Trang Chủ</a></li>
+                            <li><a href="">Giới Thiệu</a></li>
+                            <li class="sub_menu"><a href="#!">Sản Phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="sub_menu_products">
+                                    <li><a href="">Rau củ</a></li>
+                                    <li><a href="">Hải sản</a></li>
+                                    <li><a href="">Trái cây</a></li>
+                                    <li><a href="">Đồ uống</a></li>
+                                    <li><a href="">Thịt trứng</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Kiến Thức</a></li>
+                            <li><a href="">Liên Hệ</a></li>
+                        </ul>
+                        <br />
+                        <button class="btn btn-success"><a href="">Đăng kí</a></button>
+                        <button class="btn btn-danger"><a href="">Đăng nhập</a></button>
+                    </div>
+                </div>
+                <!--end  menu table mobie -->
+                <div class="head_logo l-3 m-3 c-7">
+                    <div class="logo_container">
+                        <img src="../img/logoShop.png" alt="" />
+                        <b class="logo_brand"><strong>Yumy</strong>Fresh</b>
+                    </div>
+                </div>
+                <ul class="nav_main hide_of_table l-7 m-6 c-0">
+                    <li><a href="">Trang Chủ</a></li>
+                    <li><a href="">Giới Thiệu</a></li>
+                    <li class="sub_menu"><a href="">Sản Phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub_menu_products">
+                            <li><a href="">Rau củ</a></li>
+                            <li><a href="">Hải sản</a></li>
+                            <li><a href="">Trái cây</a></li>
+                            <li><a href="">Đồ uống</a></li>
+                            <li><a href="">Thịt trứng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Kiến Thức</a></li>
+                    <li><a href="">Liên Hệ</a></li>
+                </ul>
+                <div class="head_search l-2 m-3 c-3">
+                    <div class="seach_item">
+                        <input type="text" name="search" placeholder="Tìm kiếm ..."><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                        <div class="seach_item_list hide">
+                            <!-- <a href="#" class="seach_item_list-box">
+                                <img src="http://mauweb.monamedia.net/happytrade/wp-content/uploads/2019/05/upload_1d1797f33c5140e4a7742aa0470d77e5_master.jpg"
+                                    alt="">
+                                <div class="seach_item_list-box_des">
+                                    <p class="seach_item_list-box_des-name">
+                                        Bông bưởi hihihi đepq ua nha hahaha
+                                    </p>
+                                    <p class="seach_item_list-box_des-price">
+                                        <span class="item_list-box_des-price">123,126,354 đ</span> <del>135,245đ</del>
+                                    </p>
+                                </div>
+                            </a> -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Điều hướng của trang-->
+    <section class="grid wide">
+        <div class="product_items_directional">
+            <div class="directional_head">
+                <a href="../html/home.html">Trang chủ </a><i class="fa-solid fa-angle-right"></i><a href=""> Sản
+                    phẩm</a>
+            </div>
+        </div>
+        <div class="grid wide">
+            <div class="direce_page_heading">
+                <h1>Giỏ Hàng</h1>
+            </div>
+        </div>
+    </section>
+    <!--End Điều hướng của trang-->
+
+    <div id="headbanner_fixed" class="headchange"> </div>
+
+    <div class="product_items_special">
+        <div class="grid wide">
+            <div class="about_us">
+                <h2 class="title-head" ><strong>CÂU CHUYỆN CỦA CHÚNG TÔI</strong> </h2>
+                <p class="about_us_des">
+                    <b>POLYFOOD</b> cửa hàng thực phẩm sạch với mục tiêu giúp người tiêu dùng Việt Nam có một cuộc sống
+                    khỏe mạnh hơn thông qua những loại thực phẩm hữu cơ có chứng nhận, thực phẩm tự nhiên. Chúng tôi lựa
+                    chọn các loại thực phẩm hữu cơ, thực phẩm tự nhiên từ các nhà sản xuất, các công ty trong và ngoài
+                    nước thông qua quá trình lựa chọn kỹ càng về khả năng cung ứng, các giấy chứng nhận tiêu chuẩn do
+                    các tổ chức uy tín thế giới cấp. Chúng tôi yêu thích những gì chúng tôi làm và chúng tôi đam mê
+                    những lợi ích của một lối sống lành mạnh, tìm nguồn cung cấp sản phẩm hữu cơ chất lượng cao nhất cho
+                    khách hàng và cung cấp dịch vụ giao hàng tận nhà tốt nhất. Chúng tôi hoàn toàn tin tưởng rằng những
+                    sản phẩm tạo ra từ quá trình canh tác và sản xuất theo phương thức hữu cơ và tự nhiên tốt cho cơ thể
+                    mọi người, tốt hơn cho cộng đồng và tốt hơn cho hành tinh mà chúng ta đang sống. Một lần nữa, Farm
+                    House được sáng lập bởi các nhà sáng lập muốn tạo dựng một cộng đồng thực phẩm sạch, dựa trên nền
+                    tảng hữu cơ và thuần từ thiên nhiên, nhằm mang lại sức khoẻ tốt nhất cho cộng đồng.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head">I. SỨ MỆNH KINH DOANH </h2>
+                <p class="about_us_des">
+                    Sứ mệnh của <strong>POLYFOOD</strong> và đó là giúp mọi người dễ dàng tiếp cận hơn với các loại thực phẩm sạch, thực
+                    phẩm hữu cơ, thực phẩm tự nhiên. Không chỉ cung cấp các sản phẩm hữu cơ, chúng tôi còn đem đến những
+                    thông tin hữu ích về sức khỏe mà thực phẩm hữu cơ đem lại cho con người và cộng đồng. Mỗi người có
+                    nhu cầu và cách tiếp cận với thực phẩm hữu cơ, thực phẩm tự nhiên theo một cách khác nhau, vì vậy,
+                    chúng tôi có mặt ở đây để hỗ trợ bạn bằng cách: Chỉ cung cấp những loại thực phẩm hữu cơ, thực phẩm
+                    tự nhiên đạt những chứng nhận uy tín nói chung và được kiểm chứng bởi <strong>POLYFOOD</strong> nói riêng. Khởi tạo
+                    những mối quan hệ tích cực, lâu dài và tin tưởng giữa <strong>POLYFOOD</strong>e với khách hàng, nhân viên, nhà cung
+                    cấp và cộng đồng. Hỗ trợ phát triển các trang trại, cộng đồng nhỏ vùng sâu vùng xa, vùng dân tộc ít
+                    người và các đối tượng dễ bị tổn thương trong xã hội canh tác theo phương thức hữu cơ, phương thức
+                    tự nhiên để có cuộc sống tốt đẹp hơn.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head">II. LAN TOẢ ĐIỀU TỐT VÀ NHIỀU HƠN NỮA LUÔN TƯƠI NGON </h2>
+                <p class="about_us_des">
+                    Là khách hàng của <strong>POLYFOOD</strong>e bạn không cần phải dành hàng giờ đi chợ hay siêu thị để tìm kiếm những
+                    sản phẩm hữu cơ tươi ngon nhất vì chúng tôi làm điều đó cho bạn và sau đó đưa bạn đến tận nhà bạn.
+                    Chúng tôi chọn những sản phẩm hữu cơ tươi mới và có chứng nhận. Trong quá trình đóng gói của chúng
+                    tôi, chúng tôi cũng đảm bảo rằng chất lượng của tất cả các sản phẩm được kiểm tra thêm để sản phẩm
+                    được giao là tiêu chuẩn tốt nhất.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head">III. DỊCH VỤ CSKH TUYỆT VỜI </h2>
+                <p class="about_us_des">
+                    Nhiệm vụ của chúng tôi là cung cấp dịch vụ tốt nhất cho khách hàng, giúp bạn tận hưởng trải nghiệm
+                    mua sắm tuyệt vời nhất. Chúng tôi thích tương tác với khách hàng của mình và chúng tôi luôn hoan
+                    nghênh phản hồi về dịch vụ của các bạn. Đó là cách mà chúng tôi hiểu các bạn hơn, cũng như làm tốt
+                    dịch vụ của mình hơn, hoàn thiện mình hơn nữa từng gày.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head">IV. TRÊN CẢ MONG MUỐN </h2>
+                <p class="about_us_des">
+                    Chúng tôi thích quảng bá các thực phẩm hữu cơ bổ dưỡng và giảm thiểu càng nhiều thực phẩm chế biến
+                    càng tốt. Dù thực phẩm bạn chọn cho bạn và gia đình của bạn là gì, thì chúng tôi vẫn khẳng định rằng
+                    thực phẩm hữu cơ là hỗ trợ lối sống lành mạnh nhất. Thực phẩm hữu cơ mặc dù chưa được nhiều người
+                    biết đến, nhưng nó càng ngày được nhiều người tin dùng vì nó thực sự tốt cho sức khoẻ của bạn và gia
+                    đình.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head">V. GIÁ TRỊ THỰC SỰ </h2>
+                <p class="about_us_des">
+                    Hầu hết các sản phẩm chúng tôi cung cấp được chứng nhận hữu cơ ngoài ra một số can tác theo hướng
+                    hữu cơ, thuần tự nhiên, nơi chúng tôi cũng có một số người trồng địa phương do đó bạn có thể yên tâm
+                    rằng tất cả các quy trình và hệ thống của chúng tôi đều được kiểm tra nghiêm ngặt.
+                </p>
+            </div>
+            <div class="about_us">
+                <h2 class="title-head"> VI. PHÁT TRIỂN BỀN VỮNG </h2>
+                <p class="about_us_des">
+                    Canh tác hữu cơ đang ngày một tốt hơn cho hành tinh của chúng ta. Chúng tôi tìm đến những địa phương
+                    nơi mà đang có nguồn đất, nước, khí không nhiễm bẩn để xây dựng hệ sinh thái tốt, chúng tôi đã vạch
+                    ra con đường tốt nhất để tiết kiệm khí thải. Chúng tôi giữ lượng chất thải tối thiểu bằng các phế
+                    liệu thực phẩm được tặng cho cư dân địa phương để ủ phân và thức ăn cho vật nuôi. Hộp của chúng tôi
+                    có thể được sử dụng lại và chúng tôi yêu cầu khách hàng đổi lại hộp giấy trong lần mua hàng kế tiếp.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="toast">
+        <!-- <div class="toast_item active">
+            <div class="toast_heading">
+                <div class="toast_message">Sản phẩm đã thêm vào giỏ hàng</div>
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <figure>
+                <img src="http://mauweb.monamedia.net/happytrade/wp-content/uploads/2019/05/upload_1d1797f33c5140e4a7742aa0470d77e5_master.jpg"
+                    alt="">
+                <div class="toat_ifm">
+                    <figcaption>Bưởi da đỏ con cu bua nhat sever afaf faf</figcaption>
+                    <a href="#">12,156 đ</a>
+                </div>
+            </figure>
+        </div> -->
+    </div>
+
+
+    <footer>
+        <div class="grid wide">
+            <div class="footer_container">
+                <div class="footer-list_address l-3 m-6 c-12">
+                    <div class="logo_container">
+                        <img src="../img/logoShop.png" alt="">
+                        <b class="logo_brand"><strong>Yumy</strong>Fresh</b>
+                    </div>
+                    <p class="list_address-shop">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <b>200/34 C12 Tô Ký, Phường Đông Hưng Thuận, Quận 12, Tp.HCM</b>
+                        <br />
+                        <i class="fa-solid fa-phone"></i>
+                        <b>0877 669 990</b>
+                        <br />
+                        <i class="fa-solid fa-envelope"></i>
+                        <b>namph2102@gmail.com</b>
+                        <br />
+                        <i class="fa-brands fa-skype"></i>
+                        <b>namph2102</b>
+                    </p>
+                </div>
+                <div class="footer-list_catetory l-6 m-6 c-12">
+                    <div class="list_catetory-products l-4 m-6 c-6">
+                        <h2>SẢN PHẨM</h2>
+                        <ul>
+                            <li><a href="">Rau củ</a></li>
+                            <li><a href="">Hải sản</a></li>
+                            <li><a href="">Trái cây</a></li>
+                            <li><a href="">Đồ uống</a></li>
+                            <li><a href="">Thịt trứng</a></li>
+                        </ul>
+                    </div>
+                    <div class="list_catetory-products l-4 m-6 c-6">
+                        <h2>DANH MỤC</h2>
+                        <ul>
+                            <li><a class="show" href="#headbanner_fixed">Trang chủ</a></li>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Cửa hàng</a></li>
+                            <li><a href="">Kiến thức</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="list_catetory-products l-4 m-0 c-0">
+                        <h2>DỊCH VỤ</h2>
+                        <ul>
+                            <li><a href="">Rau củ</a></li>
+                            <li><a href="">Hải sản</a></li>
+                            <li><a href="">Trái cây</a></li>
+                            <li><a href="">Đồ uống</a></li>
+                            <li><a href="">Thịt trứng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="list_catetory-products  footer-form_contact l-3 m-4 c-12">
+                    <h2>ĐĂNG KÝ</h2>
+                    <p class="form_contact-des">Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                    <div class="input_contact">
+                        <input type="email" name="emailcontact" id="emailcontact" placeholder="Email..." /><i
+                            class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <ul class="footer_list_social">
+                        <li><a href="#!" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#!" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#!" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#!" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Copyright_footer">
+            <p>© Bản quyền thuộc về . Thiết kế website <strong><em>HoaiNam Media</em></strong> </p>
+        </div>
+    </footer>
+    <script src="../js/home.js"></script>
+</body>
+
+</html>

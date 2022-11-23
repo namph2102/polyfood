@@ -1,0 +1,61 @@
+.catetory_menu_body_top_item .tintuc_name_hot{
+    text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 3;
+     -webkit-box-orient: vertical;
+     line-height: 1.4rem;
+     overflow: hidden;
+     font-size: 1.4rem;
+}
+.tintuc_heading{
+    line-height: 1.7;
+    color: #363636;
+    letter-spacing: 0.25px;
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.tintuc_heading span{
+    font-size: 1.4rem;
+}
+.catetory_menu_body_top_item .top_item_price{
+    color: rgb(49, 35, 35);
+    font-style: italic;
+    margin-top: 4px;
+}
+.tintuc_item_container li a img{
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+.tintuc_item_container li {
+    padding: 4px 8px;
+    margin: 0;
+}
+.tintuc_item_container li a{
+    padding: 0;
+    margin: 0;
+}
+.tintuc_item_container .catetory_menu_body_top_item .tintuc_name_hot_menu{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+.catetory_menu_body_top_item .tintuc_name_hot_des{
+    font-size: 1.4rem;
+    margin-top: 8px;
+   
+}
+.catetory_menu_body li:hover{
+   color: rgb(247, 243, 235);
+}
+.catetory_menu_body li:hover a{
+    color: rgb(247, 243, 235);
+}
+.catetory_menu_body_top_item li:hover .tintuc_name_hot_des{
+    color: rgb(247, 243, 235);
+}

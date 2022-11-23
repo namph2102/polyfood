@@ -1,0 +1,202 @@
+:root {
+    --primary-color: #6abd45;
+    --main-color: #2d7c09;
+    --w-text: rgba(255, 255, 255, 0.9);
+    --w-secondText: rgba(255, 255, 255, 0.70);
+    --b--text: rgba(0, 0, 0, 0.87);
+    --b-secondText: rgba(0, 0, 0, 0.7);
+    --far-content: 25px;
+    --price-color: #fe9705;
+    --bg-footer: rgb(37, 41, 50);
+    --bg-w: white;
+}
+.display_flex_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table_product_list_cart{
+    width: 100%; 
+    display: table; 
+    text-align: center;
+    font-size: 1.6rem;
+    border-collapse: collapse;
+  
+
+}
+
+.table_product_list_cart td{
+    padding: 8px 0;
+}
+.table_product_list_cart tr:hover{
+background-color: #dee5eb;
+
+}
+.table_product_list_cart  caption{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight:700 ;
+    padding: 16px 0;
+}
+.table_product_list_cart th{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(10, 10, 10, 0.63);
+}
+
+.table_product_cart_item{
+    width: 30%;
+}
+
+.table_product_cart_item .product_cart_item_img{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 1.6rem;
+    padding: 4px;
+}
+.table_product_cart_item  .product_box_item_ifm{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.table_product_cart_item .cart_box-des-name{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    padding-left: 20px;
+    text-align: left;
+}
+.table_product_cart_item img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    box-shadow: 2px 2px 3px rgb(179 173 173);
+}
+.product_box_item_ifm .product_box_item_name-origin{
+    font-weight: 700;
+   font-size: 1.4rem;
+   text-align: left;
+   padding-left: 20px;
+   margin-top: 4px;
+   color: rgba(0,0,0,0.54);
+}
+
+.table_product_list_cart .product_box_item_ifm-price,.product_box_item_ifm-total,.product_box_item_ifm-amount{
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.table_product_list_cart .product_box_item_ifm-amount{
+    margin: 0 4px;
+}
+
+.table_product_list_cart button{
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: rgb(233, 225, 225);
+}
+.table_product_list_cart button:hover{
+    opacity: 0.8;
+    color: var(--primary-color);
+}
+.table_product_list_cart button i{
+    font-size: 1.8rem;
+}
+.table_product_list_cart .product_box_item_ifm-close button{
+    background-color:transparent;
+}
+table td .product_box_item_ifm:hover .cart_box-des-name{
+    color: var(--primary-color);
+}
+table td .product_box_item_ifm:hover .product_box_item_name-origin{
+    color: var(--primary-color);
+}
+/* bill  */
+.box_bill_pay{
+   padding: 0 12px;
+}
+.box_bill_pay_container{
+    border-radius: 8px;
+    padding: 0 4px;
+    border: 2px solid rgb(79, 224, 103);
+}
+.box_bill_pay-head {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 16px 8px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.box_bill_pay-body {
+    
+    padding: 16px 8px;
+}
+.box_bill_pay-body_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 4px 0;
+    border-top: 1px solid rgb(230, 230, 157);
+    border-bottom: 1px solid rgb(230, 230, 157);
+}
+.box_bill_pay-subtotal {
+   margin: 8px 0;
+}
+.box_bill_pay_vat {
+    margin: 8px 0;
+}
+.box_bill_pay-body_total ul{
+    margin: 0;
+    font-size: 1.4rem;
+    list-style: none;
+}
+.box_bill_pay-subtotal ,.box_bill_pay_vat{
+    font-weight: 800;
+}
+.box_bill_pay-body_flex  span{
+    font-weight: 800;
+
+}
+.box_bill_pay-body_flex .box_bill_pay-total {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.box_bill_pay-body_total{
+    padding: 8px 12;
+}
+.margin_top_bottom{
+    margin: 12px 0;
+    padding: 12px 0;
+}
+.box_bill_pay .btn-danger{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.7rem;
+    margin: 8px 0;
+}
+.box_bill_pay .btn-danger a{
+    text-decoration: none;
+    color: var(--w-text);
+    
+}
+
+@media screen and (max-width:620px)
+{
+      .table_product_cart_item img{
+          width: 60px;
+          height: 60px;
+      }  
+      .table_product_list_cart .product_box_item_ifm-price, .product_box_item_ifm-total, .product_box_item_ifm-amount{
+          font-size: 1.3rem;
+          letter-spacing: 1px;
+      }
+      .table_product_list_cart button{
+          padding: 4px;
+      }
+}
